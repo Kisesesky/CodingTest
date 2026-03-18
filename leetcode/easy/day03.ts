@@ -25,7 +25,7 @@
 // -231 <= x <= 231 - 1
 
 
-function isPalindrome(x: number): boolean {
+function isPalindrome1(x: number): boolean {
   if (x < 0) return false
   return Number(x.toString().split('').reverse().join('')) === x;
 };
